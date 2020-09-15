@@ -1,0 +1,50 @@
+.tweet__div {
+   border-bottom: 8px solid lightgray;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   width: 100% !important;
+}
+.feed__icons {
+   padding-left: 4px;
+   transition: ease-out 0.3s;
+}
+
+.feed__icons:hover {
+   color: rgb(45, 129, 207) !important;
+   cursor: pointer;
+   transition: ease-out 0.3s;
+}
+.main__feed__div {
+   height: 100vh;
+   overflow-y: scroll;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+.main__feed__div::-webkit-scrollbar {
+   display: none;
+}
+.post__image img {
+   height: 400px !important;
+   width: 100% !important;
+}
+.feedback__div span {
+   transition: ease-out 0.3s;
+}
+
+.feedback__div span:hover {
+   cursor: pointer;
+   color: rgb(45, 129, 207) !important;
+   cursor: pointer;
+   transition: ease-out 0.3s;
+}
+
+.menu__icon {
+   transition: ease-out 0.3s;
+}
+
+.menu__icon:hover {
+   cursor: pointer;
+   color: rgb(45, 129, 207) !important;
+   cursor: pointer;
+   transition: ease-out 0.3s;
+}

@@ -1,0 +1,32 @@
+.news__div {
+   border: 1px solid rgb(172, 172, 172);
+   padding: 0.8rem;
+   height: 85vh;
+   overflow-y: scroll;
+   border-radius: 0.8rem;
+}
+
+.news__div::-webkit-scrollbar {
+   display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.news__div {
+   -ms-overflow-style: none; /* IE and Edge */
+   scrollbar-width: none; /* Firefox */
+}
+
+.news__div:focus {
+   border-color: rgb(93, 69, 182);
+}
+.overall__data {
+   border: 2px solid red;
+}
+.q2,
+.q3 {
+   border-right: 2px solid red;
+}
+.q2,
+.q1 {
+   border-bottom: 2px solid red;
+}
